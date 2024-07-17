@@ -4,9 +4,7 @@ import DataList from '../components/datalist/DataList';
 
 function AboutPage() {
   return (
-    <DataProvider>
-      <DataList />
-    </DataProvider>
+    <div>AboutPage</div>
   );
 }
 

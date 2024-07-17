@@ -1,8 +1,13 @@
 import React from 'react'
+import { DataProvider } from '../../src/contexts/DataContext';
+import DataList from '../components/datalist/DataList';
 
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    
+    <DataProvider>
+      <DataList />
+    </DataProvider>
   )
 }
 
