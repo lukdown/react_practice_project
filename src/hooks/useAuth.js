@@ -6,6 +6,7 @@ function useAuth() {
   useEffect(() => {
     // 인증 상태를 확인하는 로직을 여기에 추가
     const token = localStorage.getItem('token');
+    console.log(token);
     if (token) {
       setIsAuthenticated(true);
     }
