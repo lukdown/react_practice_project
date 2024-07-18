@@ -1,10 +1,9 @@
 import React from 'react';
-import { DataProvider } from '../../src/contexts/DataContext';
-import DataList from '../components/datalist/DataList';
+import TestList from '../components/datalist/TestList';
 
 function AboutPage() {
   return (
-    <div>AboutPage</div>
+    <TestList />
   );
 }
 

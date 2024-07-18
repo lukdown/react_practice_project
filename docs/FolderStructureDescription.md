@@ -30,3 +30,22 @@ my-react-app/
 ├── .gitignore
 ├── package.json
 └── README.md
+
+
+React Project
+│
+├── contexts
+│   │   (전역 상태 및 데이터 관리 - api)
+│   └── ↓ ↓ ↓ (제공)
+│
+├── hooks
+│   │   (재사용 가능한 로직)
+│   └── ↓ ↓ (사용)
+│
+├── components
+│   │   (재사용 가능한 UI 요소)
+│   └── ↓ (조합)
+│
+└── pages
+    │   (라우트별 페이지 컴포넌트)
+    └── (최종 렌더링)
